@@ -2,7 +2,7 @@
 #define __CONFIG_H_
 
 /*
- * config.h - malloc lab configuration file
+ * config.h - malloc configuration file
  *
  * Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
  * May not be used, modified, or copied without permission.
