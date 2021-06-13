@@ -1,5 +1,3 @@
-// This file gives you a starting point to implement malloc using implicit list
-// Each chunk has a header (of type header_t) and does *not* include a footer
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -12,8 +10,6 @@
 #include "mm-implicit.h"
 #include "memlib.h"
 
-// turn "debug" on while you are debugging correctness. 
-// Turn it off when you want to measure performance
 static bool debug = false;
 
 size_t hdr_size = sizeof(header_t);
